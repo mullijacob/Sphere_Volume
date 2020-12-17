@@ -1,0 +1,29 @@
+body {
+	background: linear-gradient(to right, #fff0f0, #384fff);
+	text-align: center;
+	font-family: "Muli", serif;
+}
+
+input {
+	margin: 0.3em;
+	border: none;
+	border: solid 2px black;
+	background: transparent;
+	border-radius: 1em;
+
+}
+
+#submit:hover, #reset:hover, #radius:hover, #volume:hover {
+	background-color: #d6d9f0;
+}
+
+#radius:hover, #volume:hover {
+	cursor:text;
+}
+
+.centered {
+	position: fixed;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -70%);
+}
